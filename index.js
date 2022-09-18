@@ -5,7 +5,7 @@ var Service, Characteristic;
 module.exports = function (homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("Kwh_Enphase", AirQualityAccessory);
+  homebridge.registerAccessory("homebridge-enlighten-power", "enlighten-power", AirQualityAccessory);
 }
 
 function AirQualityAccessory(log, config) {
