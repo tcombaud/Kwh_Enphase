@@ -1,0 +1,26 @@
+{
+    "name": "Kwh_Enphase",
+    "version": "1.1.3",
+    "main": "index.js",
+    "description": "This plugin simulates a CO2 air quality accessory that you can switch to the \"detected\" state when the power produced by your Envoy solar system reaches a threshold.",
+    "author": {
+        "name": "tcombaud"
+    },
+    "keywords": [
+        "homebridge-plugin",
+        "enlighten",
+        "envoy",
+        "solar",
+        "power"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tcombaud/Kwh_Enphase"
+    },
+    "engines": {
+        "node": ">=0.12.0",
+        "homebridge": ">=0.2.0"
+    },
+    "dependencies": {
+    }
+}
